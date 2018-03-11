@@ -8,11 +8,21 @@ body, html {
     background-image: url("Photos/Abstract-Background.jpg");
 
     /* Half height */
-    height: 50%; 
+    height: 100%; 
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-                    
+
+.nav-center {
+  text-align: center;
+}
+.nav-center ul.nav {
+  display: inline-block;
+}
+.nav-center ul.nav li {
+  display: inline a;
+  display-float: left;
+}
