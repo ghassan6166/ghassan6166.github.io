@@ -26,3 +26,25 @@ body, html {
   display: inline a;
   display-float: left;
 }
+
+
+/* change color of nav-pills */
+.nav-pills a {
+	color: tomato;
+}
+
+img {
+	max-width: 640px;
+	max-height: 400px;
+}
+
+.carousel {
+  	width:640px;
+  	height:405px;
+}
+
+.carousel {
+  	margin: auto;
+	border: ridge;
+	border-color: tomato;
+}
