@@ -5,7 +5,7 @@ body, html {
 }
 .bg { 
     /* The image used */
-    background-image: url("Photos/Abstract-Background.jpg");
+    background-image: url(Photos/FreshFactoryBackground.jpg);
 
     /* Half height */
     height: 100%; 
@@ -33,6 +33,11 @@ body, html {
 	color: tomato;
 }
 
+.ul>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 img {
 	max-width: 640px;
 	max-height: 400px;
@@ -47,4 +52,11 @@ img {
   	margin: auto;
 	border: ridge;
 	border-color: tomato;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: auto;
 }
